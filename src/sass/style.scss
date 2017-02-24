@@ -1,0 +1,41 @@
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+//ici les mixins
+//----------------------------------*\
+// VENDOR
+//----------------------------------*/
+//ici les éléments externe
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+
+@import 'config/_vars.scss';
+@import 'config/_clearfix.scss';
+@import 'config/_defaults.scss';
+@import 'config/_normalize.scss';
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
+
+@import 'partials/_header.scss';
+@import 'partials/_nav.scss';
+@import 'partials/_sidebar.scss';
+@import 'partials/_main.scss';
+@import 'partials/_footer.scss';
+
+//----------------------------------*\
+// MODULES
+//----------------------------------*/
+@import 'modules/_typography.scss';
+@import 'modules/_misc.scss';
+@import 'modules/_breakpoints.scss';
+@import 'modules/_print.scss';
+
+//----------------------------------*\
+// COMPONENTS
+//----------------------------------*/
+
+@import 'components/_buttons.scss';
+@import 'components/_inputs.scss';
+@import 'components/_lists.scss';
